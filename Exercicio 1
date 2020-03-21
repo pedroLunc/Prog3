@@ -1,0 +1,8 @@
+1.	(exerc1)Descreva em no máximo 200 palavras o que é um automóvel e o que ele faz. Liste os substantivos e verbos separadamente. Cada substantivo corresponde a um objeto que precisará ser construído para implementar um sistema, nesse caso, um carro. Selecione 5 dos objetos que você listou e, para cada um, liste vários atributos e comportamentos. Descreva brevemente como esses objetos interagem entre si e com outros objetos na sua descrição. Estes passos que você seguiu são típicos do projeto orientado a objetos.
+É um veiculo motorizado que depende principalmente de gasolina. Possui quatro rodas e que serve principalmente para o tráfego de pessoas. O automóvel depende principalmente da ignição, motor, embreagem, acelerador, freio,
+Ignição: É o sistema que faz o carro funcionar, ao girar a chave na ignição o carro Dara a partida.
+Motor: É o coração do carro, pois o motor que faz o carro andar, quando pisado no acelerador e engatado a embreagem o motor forçará, e assim dará movimento ao Automóvel.
+Embreagem: É o que faz o automóvel andar, o automóvel depende de marchas e a embreagem é que decide qual marcha o piloto irá escolher.
+Acelerador: O acelerador é um pedal que força o motor, quantos mais pisar forte,mais forçado será o motor.
+Freio: Sua função é a desaceleração do automóvel, seria outro pedal como o acelerador,só que no caso do acelerador, o freio  forçará discos acoplados nas rodas,para ocorrer a desaceleração. 
+ 
