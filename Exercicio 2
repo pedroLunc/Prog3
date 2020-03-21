@@ -1,0 +1,71 @@
+<? php
+	classe Empregados {
+	  public $ vnome;
+	  public $ bnome;
+	  público $ sal_men;
+	  public $ sala_nu;
+	
+	  function pública __construct () {
+	    $ this-> vnome = "Pedro Lucas";
+	    $ this-> bnome = "Gonçalves de Lima";
+	    $ this-> sal_men = 5000,00;
+	  }
+	  function pública setVnome ($ recebe) {
+	    return $ this-> vnome = $ recebe;
+	  }
+	  function pública getVnome () {
+	    retornar $ this -> vnome;
+	  }
+	  function pública setBnome ($ recebe1) {
+	    return $ this-> bnome = $ recebe1;
+	  }
+	  function pública getBnome () {
+	    retornar $ this -> bnome;
+	  }
+	  function pública setSal_men ($ recebe2) {
+	    return $ this-> sal_men = $ recebe2;
+	  }
+	  function pública getSal_men () {
+	    retornar $ this -> sal_men;
+	  }
+	  function pública setSal_anu () {
+	    
+	    retornar $ this-> sal_anu = $ this-> sal_men * 12;
+	  }
+	  function pública getSal_anu () {
+	    retornar $ this -> sal_anu;
+	  }
+	  function pública validaSal_men () {
+	    if ($ this-> sal_men <0) {
+	      $ this-> sal_men = 0,0;
+	    }
+	  }
+	  public function aumentasal_men () {
+	    $ porc = ($ this-> sal_men * 10) / 100;
+	    $ this-> sal_men = $ this-> sal_men + $ porc;
+	  }
+	}
+	Empregado 1
+	$ empreg1 = novos Empregados ();
+	$ empreg1-> validaSal_men ();
+	$ empreg1-> set_Sal_anu ();
+	echo "O Salario anual do funcionário 1 é de {$ empreg1-> getVnome ()} {$ emp1-> getBnome ()} é R $ {$ empreg1-> getSal_anu ()} \ n"; 
+	$ empreg1 -> aumentasal_men ();
+	$ empreg1-> setSal_anu ();
+	echo "O salário anual de {$ empreg1-> getVnome ()} recebe 10% e agora é de R $ {$ empreg1-> getSal_anu ()} \ n";
+	
+Empregado 2
+	$ empreg2 = empregados Novos ();
+	$ empreg2 -> setVnome ("Alex");
+	$ empreg2 -> setBnome ("Correa");
+	$ empreg2-> setSal_men (5000);
+	$ empreg2-> validaSal_men ();
+	$ empreg2-> setSal_anu ();
+	echo "O Salario anual do funcionário é  de {$ empreg2-> getVnome ()} {$ emp2-> getBnome ()} é R $ {$ emp2-> getSal_anu ()} \ n"; 
+	$ empreg2 -> aumenta_sal_men ();
+	$ empreg2-> setSal_anu ();
+	echo "O salário anual do funcionário é de {$ empreg2-> getVnome ()} recebe 10% e agora é de R $ {$ empreg2-> getSal_anu ()} \ n";
+	?>
+
+
+	
